@@ -1,0 +1,23 @@
+
+input "Hello There! What is your name?: " name
+
+"C"
+printf("Hello %s from C!", name);
+
+// End C
+end
+
+"C"
+for (int i = 0; i<9; i++) {
+printf("TEST\n");
+}
+end
+print "Pretty rad stuff man"
+print name
+func show(message, count)
+let next_count = count + 1
+print message
+print next_count
+end
+
+show("hello", 3)
