@@ -1,23 +1,41 @@
-
 input "Hello There! What is your name?: " name
 
 "C"
-printf("Hello %s from C!", name);
+  printf("Hello %s from C!", name);
 
-// End C
+  for (int i = 0; i<3; i++) {
+    printf("TEST\n");
+  }
+
+  // End C
 end
 
-"C"
-for (int i = 0; i<9; i++) {
-printf("TEST\n");
-}
-end
+printnl "Test"
 print "Pretty rad stuff man"
 print name
+
 func show(message, count)
-let next_count = count + 1
-print message
-print next_count
+  let next_count = count + 1
+  print message
+  print next_count
 end
 
+func multiply(x, y)
+  let result = x * y
+  print result
+end
+
+func multiplyWithMessage(message, x, y)
+  let result = x * y
+  print message
+  print result
+end
+let count = 0
+while count<3)
+  printnl "test"
+  count++
+end
+
+multiplyWithMessage("Result:", 4, 5)
+multiply(4, 5)
 show("hello", 3)

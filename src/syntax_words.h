@@ -33,11 +33,14 @@
     #define KEYWORD_START "начало"
 #else
     #define KEYWORD_PRINT "print"
+    #define KEYWORD_PRINTNL "printnl"
     #define KEYWORD_IF "if"
     #define KEYWORD_ELSE "else"
     #define KEYWORD_WHILE "while"
     #define KEYWORD_FOR "for"
     #define KEYWORD_FUNC "func"
+    #define KEYWORD_FUNC_START '('
+    #define KEYWORD_FUNC_END ')'
     #define KEYWORD_RETURN "return"
     #define KEYWORD_INPUT "input"
     #define KEYWORD_VAR "let"
